@@ -39,7 +39,7 @@ const Container = () =>{
         <div>
             <div className="absolute lg:top-1/2 top-0 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-8/12 w-full lg:p-5 lg:mx-auto lg:bg-white rounded-lg h-fit">
                 <div className="grid lg:grid-cols-3">
-                    <div className="lg:w-full w-screen bg-no-repeat bg-contain h-[80vh]  lg:bg-desktopbg bg-mobilebg">
+                    <div className="lg:w-full w-screen bg-no-repeat bg-contain h-[80vh] lg:bg-desktopbg bg-mobilebg">
                         <div className="lg:grid flex justify-center lg:justify-start items-center lg:gap-8 gap-4 lg:p-7 p-10">
                             <Button onClick={()=>{setPage(0)}} text='1' info='your info' className={`${page === 0 ? 'bg-LightGray text-MarineBlue outline-0 outline-transparent' : ''}`}/>
                             <Button onClick={()=>{setPage(1)}} text='2' info='select plan' className={`${page === 1 ? 'bg-LightGray text-MarineBlue outline-0 outline-transparent' : ''} `}/>
