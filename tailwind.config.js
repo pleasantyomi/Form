@@ -23,8 +23,8 @@ export default {
       },
 
       backgroundImage : {
-        'desktopbg' : "url('src/assets/images/bg-sidebar-desktop.svg')",
-        'mobilebg' : "url('src/assets/images/bg-sidebar-mobile.svg')",
+        'desktopbg' : "url('Form/src/assets/images/bg-sidebar-desktop.svg')",
+        'mobilebg' : "url('Form/src/assets/images/bg-sidebar-mobile.svg')",
       }
     },
   },
